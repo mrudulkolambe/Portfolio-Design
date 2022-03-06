@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+.d-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sp-around{
+    justify-content: space-around;
+}
+.sp-between{
+    justify-content: space-between;
+}
+.fw-600{
+    font-weight: 600;
+}
+.text-muted{
+    color: grey;
+}
+.orange-button{
+    padding: 10px 25px;
+    border-radius: 25px;
+    background-color: rgb(255, 136, 0);
+    outline: none;
+    border: 2px solid rgb(255, 136, 0);
+    font-weight: 600;
+    color: white;
+    font-size: 17px;
+}
+.outline-button{
+    padding: 10px 25px;
+    border-radius: 25px;
+    background-color: transparent;
+    outline: none;
+    border: 2px solid black;
+    font-weight: 600;
+    color: black;
+    font-size: 17px;
+}
+.nav-link{
+    color: black;
+    text-decoration: none;
+}
+.w-75{
+    width: 75%;
+}
+.m-auto{
+    margin: 0 auto;
+}
+.my-1{
+    margin: 1rem 0;
+}
+.my-half{
+    margin: 0.5rem 0;
+}
+.my-2{
+    margin: 2rem 0;
+}
+.mx-1{
+    margin: auto 1rem;
+}
+.orange-text{
+    color: rgb(255, 136, 0);
+    font-size: 40px;
+}
+.bg-muted{
+    background-color: rgb(216, 216, 216);
+}
+.flex-column{
+    flex-direction: column;
+}
+.text-center{
+    text-align: center;
+}
+
+header{
+    padding: 25px 30px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: white;
+    width: 100%;
+}
+
+.logo{
+    font-weight: bolder;
+    font-size: 20px;
+}
+ul{
+    list-style: none;
+    width: 24%;
+}
+
+.left, .right{
+    max-width: 45%;
+    text-align: left;
+}
+section{
+    height: calc(100% - 100px);
+    width: 100%;
+    padding: 5rem 0;
+}
+section h1{
+    font-size: 40px;
+}
+.image-container{
+    border-bottom: 7px solid rgb(255, 136, 0);
+    border-left: 7px solid rgb(255, 136, 0);
+    padding-left: 8px;
+    padding-bottom: 8px;
+}
+.image-container img{
+    background-color: white;
+    width: 270px;
+}
+table td{
+    min-width: 150px;
+    height: 30px;
+}
+
+.card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 130px 0;
+}
+.card{
+    padding: 20px;
+    width: 350px;
+    border: 7px solid transparent;
+    border-radius: 7px;
+    transition: 0.3s;
+}
+.icon{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: white;
+    font-size: 20px;
+    color: rgb(255, 136, 0);
+    transition: 0.3s;
+}
+.icon:hover{
+    color: white;
+    background-color: rgb(255, 136, 0);
+}
+.card:hover{
+    border-bottom: 7px solid grey;
+}
+.card:hover .icon{
+    background-color: rgb(255, 136, 0);
+    color: white;
+}
+
+
+.social-handles{
+    display: flex;
+    align-items: center;
+}
+.input-container div{
+    justify-content: space-between;
+}
+input, textarea{
+    width: 260px;
+    padding: 13px 20px;
+    outline: none;
+    border: 2px solid #777;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    transition: 0.2s;
+}
+input:focus, textarea:focus{
+    border-color: rgb(255, 136, 0);
+}
+textarea{
+    width: 600px;
+    resize: none;
+    height: 200px;
+}
+span{
+    width: 100%;
+}
+.parent{
+    margin-top: -100px;
+}
+
+footer{
+    padding: 30px 100px;
+}
+.socials{
+    width: 20%;
+}
+.socials i{
+    font-size: 20px;
+    color: grey;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.socials i:hover{
+    color: rgb(255, 136, 0);
+}
